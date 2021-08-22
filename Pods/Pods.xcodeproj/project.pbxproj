@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = AppCenter;
+			productName = AppCenter;
 		};
 /* End PBXAggregateTarget section */
 
@@ -41,20 +42,20 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3BD68468276B15205BD5DFB5477725A8 /* AppCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.debug.xcconfig; sourceTree = "<group>"; };
 		4150A7DC927081A7094751386A68B4EA /* Pods-CI-CD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CI-CD-dummy.m"; sourceTree = "<group>"; };
-		4DDCF1B53CAEA0BDEAC75938B9B405D5 /* AppCenterAnalytics.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppCenterAnalytics.xcframework; path = "AppCenter-SDK-Apple/AppCenterAnalytics.xcframework"; sourceTree = "<group>"; };
+		4DDCF1B53CAEA0BDEAC75938B9B405D5 /* AppCenterAnalytics.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = AppCenterAnalytics.xcframework; path = "AppCenter-SDK-Apple/AppCenterAnalytics.xcframework"; sourceTree = "<group>"; };
 		62F7CBEC8A1377B2828D54FF358739FF /* Pods-CI-CD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CI-CD-umbrella.h"; sourceTree = "<group>"; };
 		68C205B49EE55C7E714852B233800A1B /* Pods-CI-CD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CI-CD-Info.plist"; sourceTree = "<group>"; };
 		692127A1D40FB20A3E07EC5EEF614130 /* Pods-CI-CD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CI-CD.release.xcconfig"; sourceTree = "<group>"; };
 		6EB90F166044CDC21A01E485CEF55BD1 /* Pods-CI-CD-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CI-CD-frameworks.sh"; sourceTree = "<group>"; };
-		81A9733B14E5348B8F4E5667841257D2 /* Pods-CI-CD-artifacts-Release-output-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CI-CD-artifacts-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
-		88C82BEA4DDC1C597F42BF81C803466B /* Pods-CI-CD-artifacts-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CI-CD-artifacts-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
-		8D47FD82EF98F2439D0B44DBA74D5BD9 /* Pods_CI_CD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CI_CD.framework; path = "Pods-CI-CD.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		95D5F9AC9C077BEF28AB23C9811D7DAE /* AppCenterCrashes.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppCenterCrashes.xcframework; path = "AppCenter-SDK-Apple/AppCenterCrashes.xcframework"; sourceTree = "<group>"; };
+		81A9733B14E5348B8F4E5667841257D2 /* Pods-CI-CD-artifacts-Release-output-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcfilelist; path = "Pods-CI-CD-artifacts-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
+		88C82BEA4DDC1C597F42BF81C803466B /* Pods-CI-CD-artifacts-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcfilelist; path = "Pods-CI-CD-artifacts-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
+		8D47FD82EF98F2439D0B44DBA74D5BD9 /* Pods_CI_CD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CI_CD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D5F9AC9C077BEF28AB23C9811D7DAE /* AppCenterCrashes.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = AppCenterCrashes.xcframework; path = "AppCenter-SDK-Apple/AppCenterCrashes.xcframework"; sourceTree = "<group>"; };
 		967D029FCF2204EEA4AE6F92D2D9FB34 /* AppCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CC571CA5EA75DC5802C9541547369967 /* Pods-CI-CD-artifacts-Release-input-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CI-CD-artifacts-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
-		DE82F9CD92DC9DBF8FF17540B9B4F49F /* AppCenter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppCenter.xcframework; path = "AppCenter-SDK-Apple/AppCenter.xcframework"; sourceTree = "<group>"; };
-		E2CF0729102A8EE5F88ECEF4CCCDAD54 /* Pods-CI-CD-artifacts-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CI-CD-artifacts-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC571CA5EA75DC5802C9541547369967 /* Pods-CI-CD-artifacts-Release-input-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcfilelist; path = "Pods-CI-CD-artifacts-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
+		DE82F9CD92DC9DBF8FF17540B9B4F49F /* AppCenter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = AppCenter.xcframework; path = "AppCenter-SDK-Apple/AppCenter.xcframework"; sourceTree = "<group>"; };
+		E2CF0729102A8EE5F88ECEF4CCCDAD54 /* Pods-CI-CD-artifacts-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcfilelist; path = "Pods-CI-CD-artifacts-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
 		E2E730A740DD3F6B7F1625F31C1CD482 /* Pods-CI-CD-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CI-CD-acknowledgements.plist"; sourceTree = "<group>"; };
 		EA0911E04F7D0486C61E8ADA09451A36 /* Pods-CI-CD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CI-CD.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -210,7 +211,6 @@
 				6761EE334F7BF9305A98F133F847D3B0 /* Crashes */,
 				26E9FF33390CD4B95C5FD40FDCDD2763 /* Support Files */,
 			);
-			name = AppCenter;
 			path = AppCenter;
 			sourceTree = "<group>";
 		};
@@ -398,6 +398,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
